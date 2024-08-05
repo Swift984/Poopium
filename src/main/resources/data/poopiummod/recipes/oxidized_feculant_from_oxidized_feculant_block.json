@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poopiummod:oxidized_feculant_block"
+    }
+  ],
+  "result": {
+    "item": "poopiummod:oxidized_feculant",
+    "count": 9
+  }
+}

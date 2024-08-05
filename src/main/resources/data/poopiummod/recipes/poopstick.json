@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "poopiummod:poopium"
+    },
+    "X": {
+      "item": "minecraft:bedrock"
+    },
+    "O": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "X",
+    "O"
+  ],
+  "result": {
+    "item": "poopiummod:poopstick"
+  },
+  "show_notification": true
+}

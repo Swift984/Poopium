@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:ancient_feculant"
+    },
+    "title": {
+      "translate": "advancements.oldhead.title"
+    },
+    "description": {
+      "translate": "advancements.oldhead.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:i_found_poopium",
+  "criteria": {
+    "has_ancient_feculant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:ancient_feculant"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

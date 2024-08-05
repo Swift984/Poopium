@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:poopium"
+    },
+    "title": {
+      "translate": "advancements.i_found_poopium.title"
+    },
+    "description": {
+      "translate": "advancements.i_found_poopium.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:the_poopium_mod",
+  "criteria": {
+    "i_found_poopium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:poopium"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

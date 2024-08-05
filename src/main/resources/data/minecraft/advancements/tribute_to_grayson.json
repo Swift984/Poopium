@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:grayson_statue_block"
+    },
+    "title": {
+      "translate": "advancements.tribute_to_grayson.title"
+    },
+    "description": {
+      "translate": "advancements.tribute_to_grayson.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:i_found_poopium",
+  "criteria": {
+    "feculant_treat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:grayson_statue_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

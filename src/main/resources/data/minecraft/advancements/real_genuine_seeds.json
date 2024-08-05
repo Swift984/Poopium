@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:poopium_seeds"
+    },
+    "title": {
+      "translate": "advancements.real_genuine_seeds.title"
+    },
+    "description": {
+      "translate": "advancements.real_genuine_seeds.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:fragmentation",
+  "criteria": {
+    "feculant_treat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:poopium_seeds"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

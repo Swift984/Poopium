@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:obamacopter_smoothie"
+    },
+    "title": {
+      "translate": "advancements.feculant_treat.title"
+    },
+    "description": {
+      "translate": "advancements.feculant_treat.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:i_found_poopium",
+  "criteria": {
+    "feculant_treat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:obamacopter_smoothie"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 5000,
+  "experience": 100,
+  "group": "oxidized_feculant",
+  "ingredient": {
+    "item": "poopiummod:oxidized_feculant"
+  },
+  "result": "poopiummod:poopium_seed_fragment"
+}

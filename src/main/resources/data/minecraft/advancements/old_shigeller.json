@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bottle"
+    },
+    "title": {
+      "translate": "advancements.old_shigeller.title"
+    },
+    "description": {
+      "translate": "advancements.old_shigeller.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:i_found_poopium",
+  "criteria": {
+    "has_dysentery": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "poopiummod:dysentery": {}
+        }
+      }
+    }
+  }
+}

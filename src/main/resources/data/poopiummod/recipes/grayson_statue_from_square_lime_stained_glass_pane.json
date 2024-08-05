@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "chipped:square_lime_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:beacon"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "poopiummod:grayson_statue_block"
+  },
+  "show_notification": true
+}

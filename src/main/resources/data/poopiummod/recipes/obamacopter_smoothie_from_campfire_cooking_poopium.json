@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 5.0,
+  "group": "poopium",
+  "ingredient": {
+    "item": "poopiummod:poopium"
+  },
+  "result": "poopiummod:obamacopter_smoothie"
+}

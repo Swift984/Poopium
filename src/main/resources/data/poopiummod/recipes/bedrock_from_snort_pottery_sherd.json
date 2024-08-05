@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:snort_pottery_sherd"
+    },
+    "X": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:bedrock"
+  },
+  "show_notification": false
+}

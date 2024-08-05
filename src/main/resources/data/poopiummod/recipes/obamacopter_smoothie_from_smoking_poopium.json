@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 2.5,
+  "group": "poopium",
+  "ingredient": {
+    "item": "poopiummod:poopium"
+  },
+  "result": "poopiummod:obamacopter_smoothie"
+}

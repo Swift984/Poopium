@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:poopium_seed_fragment"
+    },
+    "title": {
+      "translate": "advancements.fragmentation.title"
+    },
+    "description": {
+      "translate": "advancements.fragmentation.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:shittin_bars",
+  "criteria": {
+    "feculant_treat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:poopium_seed_fragment"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  }
+}

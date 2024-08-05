@@ -1,0 +1,62 @@
+{
+  "found_poopium": {
+    "subtitle": "sounds.poopiummod.found_poopium",
+    "sounds": [
+      "poopiummod:found_poopium"
+    ]
+  },
+  "pooptunes": {
+    "sounds": [
+      {
+        "name": "poopiummod:pooptunes",
+        "stream": true
+      }
+    ]
+  },
+  "ombly": {
+    "sounds": [
+      {
+        "name": "poopiummod:ombly",
+        "stream": true
+      }
+    ]
+  },
+  "wade": {
+    "sounds": [
+      {
+        "name": "poopiummod:wade",
+        "stream": true
+      }
+    ]
+  },
+  "sound_poopium_step": {
+  "subtitle": "sounds.poopiummod.sound_poopium_step",
+  "sounds": [
+    "poopiummod:sound_poopium_step"
+  ]
+},
+  "sound_poopium_break": {
+    "subtitle": "sounds.poopiummod.sound_poopium_break",
+    "sounds": [
+      "poopiummod:sound_poopium_break"
+    ]
+  },
+  "sound_poopium_place": {
+    "subtitle": "sounds.poopiummod.sound_poopium_place",
+    "sounds": [
+      "poopiummod:sound_poopium_place"
+    ]
+  },
+  "sound_poopium_hit": {
+    "subtitle": "sounds.poopiummod.sound_poopium_hit",
+    "sounds": [
+      "poopiummod:sound_poopium_hit"
+    ]
+  },
+  "sound_poopium_fall": {
+    "subtitle": "sounds.poopiummod.sound_poopium_fall",
+    "sounds": [
+      "poopiummod:sound_poopium_fall"
+    ]
+  }
+}

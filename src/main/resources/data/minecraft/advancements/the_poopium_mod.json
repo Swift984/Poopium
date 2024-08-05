@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:poopium"
+    },
+    "title": "The Poopium Mod",
+    "description": "You are in DEEP SHIT.",
+    "background": "poopiummod:textures/block/poopium_block.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

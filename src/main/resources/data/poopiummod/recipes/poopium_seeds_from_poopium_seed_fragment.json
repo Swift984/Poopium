@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "poopiummod:poopium_seed_fragment"
+    }
+  },
+  "result": {
+    "item": "poopiummod:poopium_seeds"
+  }
+}

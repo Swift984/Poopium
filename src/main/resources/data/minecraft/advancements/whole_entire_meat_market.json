@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "item": "poopiummod:music_disc_wade"
+    },
+    "title": {
+      "translate": "advancements.whole_entire_meat_market.title"
+    },
+    "description": {
+      "translate": "advancements.whole_entire_meat_market.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:foreign_melody",
+  "criteria": {
+    "has_discs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "poopiummod:music_disc_poopium"
+            ]
+          },
+          {
+            "items": [
+              "poopiummod:music_disc_ombly"
+            ]
+          },
+          {
+            "items": [
+              "poopiummod:music_disc_wade"
+            ]
+          }
+        ],
+        "slots": {
+          "occupied": 3
+        }
+      }
+    }
+  }
+}
