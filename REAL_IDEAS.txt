@@ -1,6 +1,6 @@
 ADVANCEMENTS
--fix foreign melody (i dont know what this is, maybe getting all music discs)
--whole entire meat market (collect all poopiums)
+-fix foreign melody (plays when you right click poopium)
+-whole entire meat market (collect all music discs)
 -old shigeller (i dont know what this is)
 
 ARMOR
@@ -22,7 +22,6 @@ POOP STICK UPGRADES
 - Instakills enemies but either saps your health at a constant rate whenever its in your inventory or it leaves you on half a heart after every use
 
 BLOCKS
--Poop stained stone
 -Buried Floppy Fragment (ore)
 -Compooter
 
@@ -50,8 +49,9 @@ MISC
 -"You found Poopium!" plays upon first pickup (custom advancement sound?)
 -vape item
 -toilet??
--the stair design for grayson
 -calcite crafting recipe
 -possibly a mob or even a boss
 - custom ambient music tracks
 - poopium dimension
+- a naturally spawning structure, possibly the crack house from the smp
+- "poop stained stone" block possibly with connected textures (one block, small stane, multiple blocks a bigger stain etc)
