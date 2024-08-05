@@ -1,5 +1,5 @@
 ADVANCEMENTS
--fix foreign melody (i dont know what this is)  
+-fix foreign melody (i dont know what this is, maybe getting all music discs)
 -whole entire meat market (collect all poopiums)
 -old shigeller (i dont know what this is)
 
@@ -14,15 +14,44 @@ TOOLS
 -poopium pickaxe (the idea was that it could break bedrock)
 -poopium axe
 -poopium hoe
+-poop stick upgrades
+
+POOP STICK UPGRADES
+- Crafting recipe changes from needing bedrock to some other hard-to-obtain block
+- The idea is that if we're going to have an OP weapon, there must be an insane drawback
+- Instakills enemies but either saps your health at a constant rate whenever its in your inventory or it leaves you on half a heart after every use
 
 BLOCKS
 -Poop stained stone
--Buried Hard Drive Fragment (ore)
+-Buried Floppy Fragment (ore)
+-Compooter
+
+FLOPPY FRAGMENTS
+- Buried Floppy Fragment ores generate underground rarely in dirt
+- Block drops itself when broken
+- Ore block can be right-clicked with a shovel (cleaning the dirt off) to drop Floppy Fragment
+- 8 Floppy Fragments surrounding a Redstone Dust in a crafting table creates Old Floppy Disc
+- The sound the floppy has on it will be assigned when it's crafted, at random, pulled from the pool of all floppy disc sounds
+- Discs with different sounds cannot stack
+
+COMPOOTER
+- A block representing an old computer with a floppy disc drive
+- Can be right-clicked with an Old Floppy Disc to play its contents
+- Essentially a jukebox for Old Floppy Discs instead of Music Discs
+
+MUSIC DISC CHANGES
+- Pooptunes stays craftable
+- Wade and Ombly get added to Deep Dark loot table, also Trial Chamber loot table in 1.21
+- Wade and Ombly no longer obtainable from creepers
+- Other discs to be added to the regular music disc creeper pool
 
 MISC
 -diarrhea liquid (diarrhea bucket?)
+-"You found Poopium!" plays upon first pickup (custom advancement sound?)
 -vape item
 -toilet??
 -the stair design for grayson
 -calcite crafting recipe
 -possibly a mob or even a boss
+- custom ambient music tracks
+- poopium dimension
