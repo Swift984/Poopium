@@ -3,17 +3,16 @@ package net.swift984.poopiummod.block;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.swift984.poopiummod.PoopiumMod;
+import net.swift984.poopiummod.block.custom.InfestedPoopiumOreBlock;
 import net.swift984.poopiummod.block.custom.PoopiumCropBlock;
 import net.swift984.poopiummod.item.ModItems;
 import net.swift984.poopiummod.sound.ModSounds;
@@ -39,9 +38,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRAYSON_STATUE_BLOCK = registerBlock("grayson_statue_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SLIME_BLOCK)
                     .instrument(NoteBlockInstrument.BANJO).lightLevel(value -> 15).destroyTime(1.0f).friction(4F).sound(SoundType.AMETHYST_CLUSTER)));
+    public static final RegistryObject<Block> INFESTED_POOPIUM_ORE = registerBlock("infested_poopium_ore",
+            () -> new InfestedPoopiumOreBlock(Blocks.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.CLAY)));
 
     public static final RegistryObject<Block> POOPIUM_CROP = BLOCKS.register("poopium_crop",
             () -> new PoopiumCropBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS).noOcclusion().noCollission()));
+
 
 
 
