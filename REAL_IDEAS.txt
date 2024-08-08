@@ -34,7 +34,7 @@ FLOPPY FRAGMENTS
 
 COMPOOTER
 - A block representing an old computer with a floppy disc drive
-- Can be right-clicked with an Old Floppy Disc to play its contents
+- Can be right-clicked with an Old Floppy Disc to play the disc's contents
 - Essentially a jukebox for Old Floppy Discs instead of Music Discs
 
 MUSIC DISC CHANGES
@@ -48,7 +48,6 @@ MISC
 -"You found Poopium!" plays upon first pickup (custom advancement sound?)
 -vape item
 -toilet??
--calcite crafting recipe
 -possibly a mob or even a boss
 - custom ambient music tracks
 - poopium dimension
