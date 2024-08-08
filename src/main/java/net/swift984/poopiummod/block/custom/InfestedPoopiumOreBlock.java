@@ -13,6 +13,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.swift984.poopiummod.entity.ModEntities;
+import net.swift984.poopiummod.entity.custom.ShitmiteEntity;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -42,12 +44,13 @@ public class InfestedPoopiumOreBlock extends Block {
     private void spawnInfestation(ServerLevel pLevel, BlockPos pPos) {
         Random rand = new Random();
         for(int i = 0; i < rand.nextInt(10); i++) {
-            Silverfish $$2 = (Silverfish) EntityType.SILVERFISH.create(pLevel);
-            if ($$2 != null) {
-                $$2.setSpeed(2);
-                $$2.moveTo((double) pPos.getX() + 0.5, (double) pPos.getY(), (double) pPos.getZ() + 0.5, 0.0F, 0.0F);
-                pLevel.addFreshEntity($$2);
-                $$2.spawnAnim();
+            Silverfish shitmite = (Silverfish) EntityType.SILVERFISH.create(pLevel);
+
+            if (shitmite != null) {
+                shitmite.setSpeed(2);
+                shitmite.moveTo((double) pPos.getX() + 0.5, (double) pPos.getY(), (double) pPos.getZ() + 0.5, 0.0F, 0.0F);
+                pLevel.addFreshEntity(shitmite);
+                shitmite.spawnAnim();
             }
         }
 

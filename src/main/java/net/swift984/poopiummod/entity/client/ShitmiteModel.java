@@ -34,19 +34,29 @@ public class ShitmiteModel<T extends Entity> extends HierarchicalModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 
-		PartDefinition shitmite = partdefinition.addOrReplaceChild("shitmite", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
 
-		PartDefinition bone = shitmite.addOrReplaceChild("bone", CubeListBuilder.create().texOffs(0, 2).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(5.0F, 0.0F, 0.0F));
 
-		PartDefinition bone2 = shitmite.addOrReplaceChild("bone2", CubeListBuilder.create().texOffs(0, 0).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, 0.0F, 0.0F));
+		float pX = 0,
+				pY = 0,
+				pZ = 0;
 
-		PartDefinition bone3 = shitmite.addOrReplaceChild("bone3", CubeListBuilder.create().texOffs(3, 3).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(3.0F, 0.0F, 0.0F));
+        float rX = 0;
+		float rY = 0;
+		float rZ = 0;
 
-		PartDefinition bone4 = shitmite.addOrReplaceChild("bone4", CubeListBuilder.create().texOffs(3, 1).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(2.0F, 0.0F, 0.0F));
+		PartDefinition shitmite = partdefinition.addOrReplaceChild("shitmite", CubeListBuilder.create(), PartPose.offsetAndRotation(0.0F, 24.0F, 0.0F, 0.0F, 0, 0.0F));
 
-		PartDefinition bone5 = shitmite.addOrReplaceChild("bone5", CubeListBuilder.create().texOffs(0, 4).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(1.0F, 0.0F, 0.0F));
+		PartDefinition bone = shitmite.addOrReplaceChild("bone", CubeListBuilder.create().texOffs(0, 2).addBox(-1f, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(5.0F, 24.0F, pZ, rX, rY, rZ));
 
-		PartDefinition bone6 = shitmite.addOrReplaceChild("bone6", CubeListBuilder.create().texOffs(3, 5).addBox(-3.0F, -1.0F, 0.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 0.0F, 0.0F));
+		PartDefinition bone2 = shitmite.addOrReplaceChild("bone2", CubeListBuilder.create().texOffs(0, 0).addBox(-1F, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(4.0F, 24.0F, pZ, rX, rY, rZ));
+
+		PartDefinition bone3 = shitmite.addOrReplaceChild("bone3", CubeListBuilder.create().texOffs(3, 3).addBox(-1F, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(3.0F, 24.0F, pZ, rX, rY, rZ));
+
+		PartDefinition bone4 = shitmite.addOrReplaceChild("bone4", CubeListBuilder.create().texOffs(3, 1).addBox(-1F, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(2.0F, 24.0F, pZ, rX, rY, rZ));
+
+		PartDefinition bone5 = shitmite.addOrReplaceChild("bone5", CubeListBuilder.create().texOffs(0, 4).addBox(-1F, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(1.0F, 24.0F, pZ, rX, rY, rZ));
+
+		PartDefinition bone6 = shitmite.addOrReplaceChild("bone6", CubeListBuilder.create().texOffs(3, 5).addBox(-1F, -1.0F, -0.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offsetAndRotation(0.0F, 24.0F, pZ, rX, rY, rZ));
 
 		return LayerDefinition.create(meshdefinition, 16, 16);
 	}

@@ -17,7 +17,7 @@ public class ModEntities {
 
     public static final RegistryObject<EntityType<ShitmiteEntity>> SHITMITE =
             ENTITY_TYPES.register("shitmite", () -> EntityType.Builder.of(ShitmiteEntity::new, MobCategory.CREATURE)
-                    .sized(1,1).build("shitmite"));
+                    .sized(.3f,.2f).build("shitmite"));
 
 
     public static void register(IEventBus eventBus) {
