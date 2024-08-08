@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.POOPIUM_BLOCK.get());
                         pOutput.accept(ModBlocks.POOPIUM_ORE.get());
+                        pOutput.accept(ModBlocks.INFESTED_POOPIUM_ORE.get());
                         pOutput.accept(ModBlocks.OXIDIZED_FECULANT_BLOCK.get());
                         pOutput.accept(ModBlocks.DIARRHEA_BLOCK.get());
                         pOutput.accept(ModBlocks.GRAYSON_STATUE_BLOCK.get());

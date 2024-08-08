@@ -2,6 +2,7 @@ package net.swift984.poopiummod;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.alchemy.Potions;
@@ -20,6 +21,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.swift984.poopiummod.block.ModBlocks;
 import net.swift984.poopiummod.effect.ModEffects;
+import net.swift984.poopiummod.entity.ModEntities;
+import net.swift984.poopiummod.entity.client.ShitmiteRenderer;
 import net.swift984.poopiummod.init.PaintingInit;
 import net.swift984.poopiummod.item.ModCreativeModeTabs;
 import net.swift984.poopiummod.item.ModItems;
@@ -52,6 +55,7 @@ public class PoopiumMod {
         PaintingInit.PAINTINGS.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -83,8 +87,9 @@ public class PoopiumMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.SHITMITE.get(), ShitmiteRenderer::new);
             // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
+            LOGGER.info("THIS CLIENT IS SET THE FUCK UP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
         }
     }
