@@ -32,7 +32,9 @@
   "sound_poopium_step": {
   "subtitle": "sounds.poopiummod.sound_poopium_step",
   "sounds": [
-    "poopiummod:sound_poopium_step"
+    "poopiummod:sound_poopium_step1",
+    "poopiummod:sound_poopium_step2",
+    "poopiummod:sound_poopium_step3"
   ]
 },
   "sound_poopium_break": {

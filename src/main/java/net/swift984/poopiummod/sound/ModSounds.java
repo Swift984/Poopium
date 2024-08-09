@@ -29,8 +29,8 @@ public class ModSounds {
 
 
     public static final ForgeSoundType POOPIUM_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
-            ModSounds.SOUND_POOPIUM_BREAK,ModSounds.SOUND_POOPIUM_STEP,ModSounds.SOUND_POOPIUM_FALL,
-            ModSounds.SOUND_POOPIUM_PLACE, ModSounds.SOUND_POOPIUM_HIT);
+            ModSounds.SOUND_POOPIUM_BREAK,ModSounds.SOUND_POOPIUM_STEP,ModSounds.SOUND_POOPIUM_PLACE,
+            ModSounds.SOUND_POOPIUM_HIT, ModSounds.SOUND_POOPIUM_FALL);
 
 
 

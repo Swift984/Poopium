@@ -25,7 +25,7 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> POOPIUM_BLOCK = registerBlock("poopium_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT)
-                    .destroyTime(.05f).friction(0.4F).sound(ModSounds.POOPIUM_BLOCK_SOUNDS)));
+                    .destroyTime(1f).friction(0.4F).sound(ModSounds.POOPIUM_BLOCK_SOUNDS)));
     public static final RegistryObject<Block> OXIDIZED_FECULANT_BLOCK = registerBlock("oxidized_feculant_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
                     .strength(3f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));

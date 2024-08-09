@@ -43,6 +43,13 @@ MUSIC DISC CHANGES
 - Wade and Ombly no longer obtainable from creepers
 - Other discs to be added to the regular music disc creeper pool
 
+SHITMITE
+- Up to 10 can spawn from Infested Poopium ore
+- Can be bred with poopium
+- Can be fed Obamacopter Smoothie to "pupate", they turn into a Pupa Block
+- Pupa Blocks sit for a certain amount of time before breaking and spawning the final form
+- Final form can perhaps be the creature in the Evil Entity painting?
+
 MISC
 -diarrhea liquid (diarrhea bucket?)
 -"You found Poopium!" plays upon first pickup (custom advancement sound?)
