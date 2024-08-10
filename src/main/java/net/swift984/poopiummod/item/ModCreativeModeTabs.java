@@ -32,6 +32,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.MUSIC_DISC_POOPTUNES.get());
                         pOutput.accept(ModItems.MUSIC_DISC_OMBLY.get());
                         pOutput.accept(ModItems.MUSIC_DISC_WADE.get());
+                        pOutput.accept(ModItems.MUSIC_DISC_COSMIC_SHITSTAIN.get());
                         pOutput.accept(ModItems.POOPIUM_SEEDS.get());
                         pOutput.accept(ModItems.POOPIUM_SEED_FRAGMENT.get());
 

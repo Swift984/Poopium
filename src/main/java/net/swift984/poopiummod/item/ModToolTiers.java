@@ -12,7 +12,7 @@ import net.swift984.poopiummod.util.ModTags;
 
 public class ModToolTiers {
     public static final Tier POOPIUM = TierSortingRegistry.registerTier(
-            new ForgeTier(5,700,12f,4f,60,
+            new ForgeTier(2,200,10f,0f,15,
                     ModTags.Blocks.NEEDS_POOPIUM_TOOL, () -> Ingredient.of(ModItems.POOPIUM.get())),
-            new ResourceLocation(PoopiumMod.MOD_ID,"poopium"), List.of(Tiers.NETHERITE), List.of());
+            new ResourceLocation(PoopiumMod.MOD_ID,"poopium"), List.of(Tiers.STONE), List.of());
 }
