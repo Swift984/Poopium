@@ -20,6 +20,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> POOPTUNES = registerSoundEvents("pooptunes");
     public static final RegistryObject<SoundEvent> OMBLY = registerSoundEvents("ombly");
     public static final RegistryObject<SoundEvent> WADE = registerSoundEvents("wade");
+    public static final RegistryObject<SoundEvent> COSMIC_SHITSTAIN = registerSoundEvents("cosmic_shitstain");
 
     public static final RegistryObject<SoundEvent> SOUND_POOPIUM_BREAK = registerSoundEvents("sound_poopium_break");
     public static final RegistryObject<SoundEvent> SOUND_POOPIUM_STEP = registerSoundEvents("sound_poopium_step");

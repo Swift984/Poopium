@@ -29,6 +29,14 @@
       }
     ]
   },
+  "cosmic_shitstain": {
+    "sounds": [
+      {
+        "name": "poopiummod:cosmic_shitstain",
+        "stream": true
+      }
+    ]
+  },
   "sound_poopium_step": {
   "subtitle": "sounds.poopiummod.sound_poopium_step",
   "sounds": [
