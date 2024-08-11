@@ -2,6 +2,9 @@ package net.swift984.poopiummod.entity.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -19,6 +22,7 @@ import net.swift984.poopiummod.PoopiumMod;
 import net.swift984.poopiummod.block.custom.InfestedPoopiumOreBlock;
 import net.swift984.poopiummod.entity.ModEntities;
 import net.swift984.poopiummod.item.ModItems;
+import net.swift984.poopiummod.sound.ModSounds;
 import net.swift984.poopiummod.util.ModTags;
 import org.checkerframework.checker.units.qual.A;
 import org.jetbrains.annotations.Nullable;
@@ -38,7 +42,7 @@ public class ShitmiteEntity extends Animal {
         super.tick();
 
         if(this.level().isClientSide()) {
-
+            setupAnimationStates();
         }
 
     }
@@ -110,4 +114,21 @@ public class ShitmiteEntity extends Animal {
     }
 
 
+    @Nullable
+    @Override
+    protected SoundEvent getAmbientSound() {
+        return ModSounds.SOUND_POOPIUM_STEP.get();
+    }
+
+    @Nullable
+    @Override
+    protected SoundEvent getDeathSound() {
+        return SoundEvents.HORSE_DEATH;
+    }
+
+    @Nullable
+    @Override
+    protected SoundEvent getHurtSound(DamageSource pDamageSource) {
+        return ModSounds.SOUND_POOPIUM_HIT.get();
+    }
 }
