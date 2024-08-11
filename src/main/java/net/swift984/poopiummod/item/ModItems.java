@@ -2,12 +2,14 @@ package net.swift984.poopiummod.item;
 
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.swift984.poopiummod.PoopiumMod;
 import net.swift984.poopiummod.block.ModBlocks;
+import net.swift984.poopiummod.entity.ModEntities;
 import net.swift984.poopiummod.item.custom.FuelItem;
 import net.swift984.poopiummod.item.custom.PoopiumItem;
 import net.swift984.poopiummod.sound.ModSounds;
@@ -51,6 +53,10 @@ public class ModItems {
                     .rarity(Rarity.EPIC).durability(5).rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> ANCIENT_FECULANT = ITEMS.register("ancient_feculant",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
+    public static final RegistryObject<Item> SHITMITE_SPAWN_EGG = ITEMS.register("shitmite_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SHITMITE, 0x402413, 0x422f14,
+                    new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

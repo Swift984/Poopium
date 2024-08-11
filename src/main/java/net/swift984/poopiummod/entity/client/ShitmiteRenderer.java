@@ -11,7 +11,7 @@ import net.swift984.poopiummod.entity.custom.ShitmiteEntity;
 
 public class ShitmiteRenderer extends MobRenderer<ShitmiteEntity, ShitmiteModel<ShitmiteEntity>> {
     public ShitmiteRenderer(EntityRendererProvider.Context pContext) {
-        super(pContext, new ShitmiteModel<>(pContext.bakeLayer(ModModelLayers.SHITMITE_LAYER)), .1f);
+        super(pContext, new ShitmiteModel<>(pContext.bakeLayer(ModModelLayers.SHITMITE_LAYER)), .15f);
 
     }
 

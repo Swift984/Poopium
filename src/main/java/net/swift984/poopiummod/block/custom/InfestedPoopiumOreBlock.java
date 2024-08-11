@@ -44,10 +44,9 @@ public class InfestedPoopiumOreBlock extends Block {
     private void spawnInfestation(ServerLevel pLevel, BlockPos pPos) {
         Random rand = new Random();
         for(int i = 0; i < rand.nextInt(10); i++) {
-            Silverfish shitmite = (Silverfish) EntityType.SILVERFISH.create(pLevel);
+            ShitmiteEntity shitmite = ModEntities.SHITMITE.get().create(pLevel);
 
             if (shitmite != null) {
-                shitmite.setSpeed(2);
                 shitmite.moveTo((double) pPos.getX() + 0.5, (double) pPos.getY(), (double) pPos.getZ() + 0.5, 0.0F, 0.0F);
                 pLevel.addFreshEntity(shitmite);
                 shitmite.spawnAnim();

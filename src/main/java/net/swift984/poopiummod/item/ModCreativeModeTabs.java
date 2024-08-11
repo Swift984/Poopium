@@ -43,6 +43,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DIARRHEA_BLOCK.get());
                         pOutput.accept(ModBlocks.GRAYSON_STATUE_BLOCK.get());
 
+                        pOutput.accept(ModItems.SHITMITE_SPAWN_EGG.get());
+
 
                     })
                     .build());
