@@ -63,9 +63,10 @@
   "sounds.poopiummod.found_poopium": "You found poopium :3",
   "sounds.poopiummod.sound_poopium_step": "Poopy footsteps",
   "sounds.poopiummod.sound_poopium_break": "Shit shatters",
-  "sounds.poopiummod.sound_poopium_place": "Someone's punching shit",
-  "sounds.poopiummod.sound_poopium_fall": "A new poop is born",
-  "sounds.poopiummod.sound_poopium_hit": "A poopium is hit",
+  "sounds.poopiummod.sound_poopium_place": "Someone dropped a deuce",
+  "sounds.poopiummod.sound_poopium_fall": "Poop absorbs your fall",
+  "sounds.poopiummod.sound_poopium_hit": "Poop hit",
+  "sounds.poopiummod.shitmite_ambient": "Shitmite cries",
 
   "painting.poopiummod.peacherpop_painting.title": "Peacherpop",
   "painting.poopiummod.peacherpop_painting.author": "Evil Entity",

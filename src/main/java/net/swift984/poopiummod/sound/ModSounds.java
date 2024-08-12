@@ -28,10 +28,11 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> SOUND_POOPIUM_PLACE = registerSoundEvents("sound_poopium_place");
     public static final RegistryObject<SoundEvent> SOUND_POOPIUM_HIT = registerSoundEvents("sound_poopium_hit");
 
+    public static final RegistryObject<SoundEvent> SOUND_SHITMITE_AMBIENT = registerSoundEvents("shitmite_ambient");
 
     public static final ForgeSoundType POOPIUM_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
-            ModSounds.SOUND_POOPIUM_BREAK,ModSounds.SOUND_POOPIUM_STEP,ModSounds.SOUND_POOPIUM_FALL,
-            ModSounds.SOUND_POOPIUM_PLACE, ModSounds.SOUND_POOPIUM_HIT);
+            ModSounds.SOUND_POOPIUM_BREAK,ModSounds.SOUND_POOPIUM_STEP,ModSounds.SOUND_POOPIUM_PLACE,
+            ModSounds.SOUND_POOPIUM_HIT, ModSounds.SOUND_POOPIUM_FALL);
 
 
 
