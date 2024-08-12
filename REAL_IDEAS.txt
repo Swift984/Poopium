@@ -28,14 +28,20 @@ FLOPPY FRAGMENTS
 - Buried Floppy Fragment ores generate underground rarely in dirt
 - Block drops itself when broken
 - Ore block can be right-clicked with a shovel (cleaning the dirt off) to drop Floppy Fragment
-- 8 Floppy Fragments surrounding a Redstone Dust in a crafting table creates Old Floppy Disc
-- The sound the floppy has on it will be assigned when it's crafted, at random, pulled from the pool of all floppy disc sounds
+- 8 Floppy Fragments surrounding a unique item in a crafting table creates Old Floppy Disc
+- The sound the floppy has on it will be assigned by the specific item surrounded by floppy fragments
 - Discs with different sounds cannot stack
+
+OLD FLOPPY DISCS
+- Like music discs, but easier to find and contains more of a variety of content (not strictly music)
+- Different sounds correspond to different biomes, rarer biomes have more special floppy disks
+- Each floppy disk will have a distinct texture reflecting its content
 
 COMPOOTER
 - A block representing an old computer with a floppy disc drive
 - Can be right-clicked with an Old Floppy Disc to play the disc's contents
-- Essentially a jukebox for Old Floppy Discs instead of Music Discs
+- Essentially a jukebox for Old Floppy Discs instead of Music Discs but eventually will be able to store floppies
+- Crafted with floppy fragments and other things
 
 MUSIC DISC CHANGES
 - Pooptunes stays craftable

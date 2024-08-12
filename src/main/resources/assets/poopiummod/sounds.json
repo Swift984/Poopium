@@ -60,5 +60,16 @@
     "sounds": [
       "poopiummod:sound_poopium_fall"
     ]
+  },
+  "shitmite_ambient": {
+    "subtitle": "sounds.poopiummod.shitmite_ambient",
+    "sounds": [
+      "poopiummod:shitmite_ambient1",
+      "poopiummod:shitmite_ambient2",
+      "poopiummod:shitmite_ambient3",
+      "poopiummod:shitmite_ambient4",
+      "poopiummod:shitmite_ambient5",
+      "poopiummod:shitmite_ambient6"
+    ]
   }
 }
