@@ -123,12 +123,12 @@ public class ShitmiteEntity extends Animal {
     @Nullable
     @Override
     protected SoundEvent getDeathSound() {
-        return SoundEvents.HORSE_DEATH;
+        return ModSounds.SOUND_SHITMITE_DEATH.get();
     }
 
     @Nullable
     @Override
     protected SoundEvent getHurtSound(DamageSource pDamageSource) {
-        return ModSounds.SOUND_POOPIUM_HIT.get();
+        return ModSounds.SOUND_SHITMITE_HIT.get();
     }
 }
