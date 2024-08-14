@@ -117,7 +117,7 @@ public class ShitmiteEntity extends Animal {
     @Nullable
     @Override
     protected SoundEvent getAmbientSound() {
-        return ModSounds.SOUND_POOPIUM_STEP.get();
+        return ModSounds.SOUND_SHITMITE_AMBIENT.get();
     }
 
     @Nullable
