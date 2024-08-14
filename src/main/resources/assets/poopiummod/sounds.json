@@ -79,5 +79,26 @@
       "poopiummod:shitmite_ambient5",
       "poopiummod:shitmite_ambient6"
     ]
+  },
+  "shitmite_death": {
+    "subtitle": "sounds.poopiummod.shitmite_death",
+    "sounds": [
+      "poopiummod:shitmite_death"
+    ]
+  },
+  "shitmite_hit": {
+    "subtitle": "sounds.poopiummod.shitmite_hit",
+    "sounds": [
+      "poopiummod:shitmite_hit1",
+      "poopiummod:shitmite_hit2",
+      "poopiummod:shitmite_hit3"
+    ]
+  },
+  "shitmite_step": {
+    "subtitle": "sounds.poopiummod.shitmite_step",
+    "sounds": [
+      "poopiummod:shitmite_step1",
+      "poopiummod:shitmite_step2"
+    ]
   }
 }

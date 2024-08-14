@@ -67,6 +67,8 @@
   "sounds.poopiummod.sound_poopium_fall": "Poop absorbs your fall",
   "sounds.poopiummod.sound_poopium_hit": "Poop hit",
   "sounds.poopiummod.shitmite_ambient": "Shitmite cries",
+  "sounds.poopiummod.shitmite_death": "Shitmite dies",
+  "sounds.poopiummod.shitmite_hit": "Shitmite cries",
 
   "painting.poopiummod.peacherpop_painting.title": "Peacherpop",
   "painting.poopiummod.peacherpop_painting.author": "Evil Entity",
