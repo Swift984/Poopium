@@ -47,7 +47,8 @@ MUSIC DISC CHANGES
 - Pooptunes stays craftable
 - Wade and Ombly get added to Deep Dark loot table, also Trial Chamber loot table in 1.21
 - Wade and Ombly no longer obtainable from creepers
-- Other discs to be added to the regular music disc creeper pool
+- Cosmic Shitstain obtainable from creepers
+- Other discs to be added to the regular music disc creeper pool along with Cosmic Shitstain
 
 SHITMITE
 - Up to 10 can spawn from Infested Poopium ore
