@@ -48,13 +48,16 @@
   "sound_poopium_break": {
     "subtitle": "sounds.poopiummod.sound_poopium_break",
     "sounds": [
-      "poopiummod:sound_poopium_break"
+      "poopiummod:sound_poopium_break1",
+      "poopiummod:sound_poopium_break2",
+      "poopiummod:sound_poopium_break3"
     ]
   },
   "sound_poopium_place": {
     "subtitle": "sounds.poopiummod.sound_poopium_place",
     "sounds": [
-      "poopiummod:sound_poopium_place"
+      "poopiummod:sound_poopium_place1",
+      "poopiummod:sound_poopium_place2"
     ]
   },
   "sound_poopium_hit": {
